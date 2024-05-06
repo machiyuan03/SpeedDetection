@@ -1,0 +1,231 @@
+<html>
+<head>
+<title>index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #56a8f5;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;head&gt;</span>
+        <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;utf-8&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;description&quot; </span><span class="s2">content</span><span class="s3">=&quot;&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;author&quot; </span><span class="s2">content</span><span class="s3">=&quot;&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;title&gt;</span><span class="s1">REAL TIME CAR SPEED DETECTION</span><span class="s0">&lt;/title&gt;</span>
+        <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;icon&quot; </span><span class="s2">type</span><span class="s3">=&quot;image/x-icon&quot; </span><span class="s2">href</span><span class="s3">=&quot;assets/favicon.ico&quot; </span><span class="s0">/&gt;</span>
+        <span class="s4">&lt;!-- Font Awesome icons (free version)--&gt;</span>
+        <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://use.fontawesome.com/releases/v6.3.0/js/all.js&quot; </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+        <span class="s4">&lt;!-- Google fonts--&gt;</span>
+        <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css?family=Varela+Round&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
+        <span class="s4">&lt;!-- Core theme CSS (includes Bootstrap)--&gt;</span>
+        <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;css/styles.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;/head&gt;</span>
+    <span class="s0">&lt;body </span><span class="s2">id</span><span class="s3">=&quot;page-top&quot;</span><span class="s0">&gt;</span>
+        <span class="s4">&lt;!-- Navigation--&gt;</span>
+        <span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar navbar-expand-lg navbar-light fixed-top&quot; </span><span class="s2">id</span><span class="s3">=&quot;mainNav&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;navbar-brand&quot; </span><span class="s2">href</span><span class="s3">=&quot;#page-top&quot;</span><span class="s0">&gt;</span><span class="s1">Information</span><span class="s0">&lt;/a&gt;</span>
+                <span class="s0">&lt;button </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler navbar-toggler-right&quot; </span><span class="s2">type</span><span class="s3">=&quot;button&quot; </span><span class="s2">data-bs-toggle</span><span class="s3">=&quot;collapse&quot; </span><span class="s2">data-bs-target</span><span class="s3">=&quot;#navbarResponsive&quot; </span><span class="s2">aria-controls</span><span class="s3">=&quot;navbarResponsive&quot; </span><span class="s2">aria-expanded</span><span class="s3">=&quot;false&quot; </span><span class="s2">aria-label</span><span class="s3">=&quot;Toggle navigation&quot;</span><span class="s0">&gt;</span>
+                    <span class="s1">Menu</span>
+                    <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-bars&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
+                <span class="s0">&lt;/button&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;collapse navbar-collapse&quot; </span><span class="s2">id</span><span class="s3">=&quot;navbarResponsive&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;navbar-nav ms-auto&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;#about&quot;</span><span class="s0">&gt;</span><span class="s1">About</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;#projects&quot;</span><span class="s0">&gt;</span><span class="s1">Projects</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;#signup&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                    <span class="s0">&lt;/ul&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/nav&gt;</span>
+        <span class="s4">&lt;!-- Masthead--&gt;</span>
+        <span class="s0">&lt;header </span><span class="s2">class</span><span class="s3">=&quot;masthead&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;d-flex justify-content-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;text-center&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;h1 </span><span class="s2">class</span><span class="s3">=&quot;mx-auto my-0 text-uppercase&quot;</span><span class="s0">&gt;</span><span class="s1">REAL TIME TRAFFIC SPEED DETECTION</span><span class="s0">&lt;/h1&gt;</span>
+                        <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;text-white-50 mx-auto mt-2 mb-5&quot;</span><span class="s0">&gt;</span><span class="s1">Measure traffic speeds on specific road sections to help manage traffic flow。</span><span class="s0">&lt;/h2&gt;</span>
+                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot; </span><span class="s2">href</span><span class="s3">=&quot;#about&quot;</span><span class="s0">&gt;</span><span class="s1">Get Started</span><span class="s0">&lt;/a&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/header&gt;</span>
+        <span class="s4">&lt;!-- About--&gt;</span>
+        <span class="s0">&lt;section </span><span class="s2">class</span><span class="s3">=&quot;about-section text-center&quot; </span><span class="s2">id</span><span class="s3">=&quot;System function description&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-4 gx-lg-5 justify-content-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-lg-8&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;text-white mb-4&quot;</span><span class="s0">&gt;&lt;/h2&gt;</span>
+                        <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;text-white-50&quot;</span><span class="s0">&gt;</span>
+                           <span class="s1">Welcome to the vehicle speed monitoring system. This system provides real-time vehicle speed data and historical analysis</span>
+                            <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://startbootstrap.com/theme/grayscale/&quot;</span><span class="s0">&gt;</span><span class="s1">the preview page.</span><span class="s0">&lt;/a&gt;</span>
+                           <span class="s1">to help traffic management departments optimize road use and improve safety</span>
+                        <span class="s0">&lt;/p&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;img </span><span class="s2">class</span><span class="s3">=&quot;img-fluid&quot; </span><span class="s2">src</span><span class="s3">=&quot;assets/img/car.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;...&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/section&gt;</span>
+        <span class="s4">&lt;!-- Projects--&gt;</span>
+        <span class="s0">&lt;section </span><span class="s2">class</span><span class="s3">=&quot;projects-section bg-light&quot; </span><span class="s2">id</span><span class="s3">=&quot;projects&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span>
+                <span class="s4">&lt;!-- Featured Project Row--&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-0 mb-4 mb-lg-5 align-items-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-xl-8 col-lg-7&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">class</span><span class="s3">=&quot;img-fluid mb-3 mb-lg-0&quot; </span><span class="s2">src</span><span class="s3">=&quot;assets/img/bg-masthead.jpg&quot; </span><span class="s2">alt</span><span class="s3">=&quot;...&quot; </span><span class="s0">/&gt;&lt;/div&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-xl-4 col-lg-5&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;featured-text text-center text-lg-left&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;h4&gt;</span><span class="s1">Kira  Yan</span><span class="s0">&lt;/h4&gt;</span>
+                            <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;text-black-50 mb-0&quot;</span><span class="s0">&gt;</span><span class="s1">She studied honours of computer science at UTS, and she has experiences in the fields of deep learning, machine learning and natural language processing.</span><span class="s0">&lt;/p&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+                <span class="s4">&lt;!-- Project One Row--&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-0 mb-5 mb-lg-0 justify-content-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-lg-6&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">class</span><span class="s3">=&quot;img-fluid&quot; </span><span class="s2">src</span><span class="s3">=&quot;assets/img/demo-image-01.jpg&quot; </span><span class="s2">alt</span><span class="s3">=&quot;...&quot; </span><span class="s0">/&gt;&lt;/div&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-lg-6&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;bg-black text-center h-100 project&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;d-flex h-100&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;project-text w-100 my-auto text-center text-lg-left&quot;</span><span class="s0">&gt;</span>
+                                    <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot;</span><span class="s0">&gt;</span><span class="s1">Chiyuan Ma</span><span class="s0">&lt;/h4&gt;</span>
+                                    <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;mb-0 text-white-50&quot;</span><span class="s0">&gt;</span><span class="s1">HE IS THE STUDY OF THE UTS HONOURS OF COMPUTER SCIENCE.</span><span class="s0">&lt;/p&gt;</span>
+                                <span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+                <span class="s4">&lt;!-- Project Two Row--&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-0 justify-content-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-lg-6&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">class</span><span class="s3">=&quot;img-fluid&quot; </span><span class="s2">src</span><span class="s3">=&quot;assets/img/demo-image-02.jpg&quot; </span><span class="s2">alt</span><span class="s3">=&quot;...&quot; </span><span class="s0">/&gt;&lt;/div&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-lg-6 order-lg-first&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;bg-black text-center h-100 project&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;d-flex h-100&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;project-text w-100 my-auto text-center text-lg-right&quot;</span><span class="s0">&gt;</span>
+                                    <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot;</span><span class="s0">&gt;</span><span class="s1">Huaxia Guo</span><span class="s0">&lt;/h4&gt;</span>
+                                    <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;mb-0 text-white-50&quot;</span><span class="s0">&gt;</span><span class="s1">Master of Data Science, 2009-2013, Mechanical Design and Manufacturing Major of Chongqing University, 13-18SEC Mechanical Design Engineer, 18-20 Years Financial Data Analyst at Yinfeng Xinrong Software Company, 20-23 Years, Regional Director of Yinfeng East China Region.</span><span class="s0">&lt;/p&gt;</span>
+                                <span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/section&gt;</span>
+        <span class="s4">&lt;!-- Signup--&gt;</span>
+        <span class="s0">&lt;section </span><span class="s2">class</span><span class="s3">=&quot;signup-section&quot; </span><span class="s2">id</span><span class="s3">=&quot;signup&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-4 gx-lg-5&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-10 col-lg-8 mx-auto text-center&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;far fa-paper-plane fa-2x mb-2 text-white&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
+                        <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;text-white mb-5&quot;</span><span class="s0">&gt;</span><span class="s1">Request more information!</span><span class="s0">&lt;/h2&gt;</span>
+                        <span class="s4">&lt;!-- * * * * * * * * * * * * * * *--&gt;</span>
+                        <span class="s4">&lt;!-- * * SB Forms Contact Form * *--&gt;</span>
+                        <span class="s4">&lt;!-- * * * * * * * * * * * * * * *--&gt;</span>
+                        <span class="s4">&lt;!-- This form is pre-integrated with SB Forms.--&gt;</span>
+                        <span class="s4">&lt;!-- To make this form functional, sign up at--&gt;</span>
+                        <span class="s4">&lt;!-- https://startbootstrap.com/solution/contact-forms--&gt;</span>
+                        <span class="s4">&lt;!-- to get an API token!--&gt;</span>
+                        <span class="s0">&lt;form </span><span class="s2">class</span><span class="s3">=&quot;form-signup&quot; </span><span class="s2">id</span><span class="s3">=&quot;contactForm&quot; </span><span class="s2">data-sb-form-api-token</span><span class="s3">=&quot;API_TOKEN&quot;</span><span class="s0">&gt;</span>
+                            <span class="s4">&lt;!-- Email address input--&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row input-group-newsletter&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col&quot;</span><span class="s0">&gt;&lt;input </span><span class="s2">class</span><span class="s3">=&quot;form-control&quot; </span><span class="s2">id</span><span class="s3">=&quot;emailAddress&quot; </span><span class="s2">type</span><span class="s3">=&quot;email&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;Enter email address...&quot; </span><span class="s2">aria-label</span><span class="s3">=&quot;Enter email address...&quot; </span><span class="s2">data-sb-validations</span><span class="s3">=&quot;required,email&quot; </span><span class="s0">/&gt;&lt;/div&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-auto&quot;</span><span class="s0">&gt;&lt;button </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary disabled&quot; </span><span class="s2">id</span><span class="s3">=&quot;submitButton&quot; </span><span class="s2">type</span><span class="s3">=&quot;submit&quot;</span><span class="s0">&gt;</span><span class="s1">Notify Me!</span><span class="s0">&lt;/button&gt;&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;invalid-feedback mt-2&quot; </span><span class="s2">data-sb-feedback</span><span class="s3">=&quot;emailAddress:required&quot;</span><span class="s0">&gt;</span><span class="s1">An email is required.</span><span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;invalid-feedback mt-2&quot; </span><span class="s2">data-sb-feedback</span><span class="s3">=&quot;emailAddress:email&quot;</span><span class="s0">&gt;</span><span class="s1">Email is not valid.</span><span class="s0">&lt;/div&gt;</span>
+                            <span class="s4">&lt;!-- Submit success message--&gt;</span>
+                            <span class="s4">&lt;!----&gt;</span>
+                            <span class="s4">&lt;!-- This is what your users will see when the form--&gt;</span>
+                            <span class="s4">&lt;!-- has successfully submitted--&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;d-none&quot; </span><span class="s2">id</span><span class="s3">=&quot;submitSuccessMessage&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;text-center mb-3 mt-2 text-white&quot;</span><span class="s0">&gt;</span>
+                                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;fw-bolder&quot;</span><span class="s0">&gt;</span><span class="s1">Form submission successful!</span><span class="s0">&lt;/div&gt;</span>
+                                    <span class="s1">To activate this form, sign up at</span>
+                                    <span class="s0">&lt;br /&gt;</span>
+                                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://startbootstrap.com/solution/contact-forms&quot;</span><span class="s0">&gt;</span><span class="s1">https://startbootstrap.com/solution/contact-forms</span><span class="s0">&lt;/a&gt;</span>
+                                <span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                            <span class="s4">&lt;!-- Submit error message--&gt;</span>
+                            <span class="s4">&lt;!----&gt;</span>
+                            <span class="s4">&lt;!-- This is what your users will see when there is--&gt;</span>
+                            <span class="s4">&lt;!-- an error submitting the form--&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;d-none&quot; </span><span class="s2">id</span><span class="s3">=&quot;submitErrorMessage&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;text-center text-danger mb-3 mt-2&quot;</span><span class="s0">&gt;</span><span class="s1">Error sending message!</span><span class="s0">&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="s0">&lt;/form&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/section&gt;</span>
+        <span class="s4">&lt;!-- Contact--&gt;</span>
+        <span class="s0">&lt;section </span><span class="s2">class</span><span class="s3">=&quot;contact-section bg-black&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row gx-4 gx-lg-5&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4 mb-3 mb-md-0&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card py-4 h-100&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card-body text-center&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-map-marked-alt text-primary mb-2&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
+                                <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-uppercase m-0&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/h4&gt;</span>
+                                <span class="s0">&lt;hr </span><span class="s2">class</span><span class="s3">=&quot;my-4 mx-auto&quot; </span><span class="s0">/&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;small text-black-50&quot;</span><span class="s0">&gt;</span><span class="s1">Kira Yan,Chiyuan Ma,Huaxia Guo</span><span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4 mb-3 mb-md-0&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card py-4 h-100&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card-body text-center&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-envelope text-primary mb-2&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
+                                <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-uppercase m-0&quot;</span><span class="s0">&gt;</span><span class="s1">Email</span><span class="s0">&lt;/h4&gt;</span>
+                                <span class="s0">&lt;hr </span><span class="s2">class</span><span class="s3">=&quot;my-4 mx-auto&quot; </span><span class="s0">/&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;small text-black-50&quot;</span><span class="s0">&gt; &lt;a </span><span class="s2">href</span><span class="s3">=&quot;mailto:li.yan-7@student.uts.edu.au&quot;</span><span class="s0">&gt;</span><span class="s1">li.yan-7@student.uts.edu.au</span><span class="s0">&lt;/a&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;mailto:huaxia.guo@student.uts.edu.au&quot;</span><span class="s0">&gt;</span><span class="s1">huaxia.guo@student.uts.edu.au</span><span class="s0">&lt;/a&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;mailto:Chiyuan.Ma-1@student.uts.edu.au&quot;</span><span class="s0">&gt;</span><span class="s1">Chiyuan.Ma-1@student.uts.edu.au</span><span class="s0">&lt;/a&gt;</span>
+                                <span class="s0">&lt;/a&gt;&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4 mb-3 mb-md-0&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card py-4 h-100&quot;</span><span class="s0">&gt;</span>
+                            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card-body text-center&quot;</span><span class="s0">&gt;</span>
+                                <span class="s0">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-mobile-alt text-primary mb-2&quot;</span><span class="s0">&gt;&lt;/i&gt;</span>
+                                <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-uppercase m-0&quot;</span><span class="s0">&gt;</span><span class="s1">Avilables</span><span class="s0">&lt;/h4&gt;</span>
+                                <span class="s0">&lt;hr </span><span class="s2">class</span><span class="s3">=&quot;my-4 mx-auto&quot; </span><span class="s0">/&gt;</span>
+                                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;small text-black-50&quot;</span><span class="s0">&gt;</span><span class="s1">MON-SUN</span>
+                                <span class="s1">8.00am-5.00am</span><span class="s0">&lt;/div&gt;</span>
+                            <span class="s0">&lt;/div&gt;</span>
+                        <span class="s0">&lt;/div&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;social d-flex justify-content-center&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;mx-2&quot; </span><span class="s2">href</span><span class="s3">=&quot;#!&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-twitter&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;mx-2&quot; </span><span class="s2">href</span><span class="s3">=&quot;#!&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-facebook-f&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;mx-2&quot; </span><span class="s2">href</span><span class="s3">=&quot;#!&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-github&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/section&gt;</span>
+        <span class="s4">&lt;!-- Footer--&gt;</span>
+        <span class="s0">&lt;footer </span><span class="s2">class</span><span class="s3">=&quot;footer bg-black small text-center text-white-50&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container px-4 px-lg-5&quot;</span><span class="s0">&gt;</span><span class="s1">Copyright </span><span class="s5">&amp;copy; </span><span class="s1">Your Website 2023</span><span class="s0">&lt;/div&gt;&lt;/footer&gt;</span>
+        <span class="s4">&lt;!-- Bootstrap core JS--&gt;</span>
+        <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+        <span class="s4">&lt;!-- Core theme JS--&gt;</span>
+        <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;js/scripts.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+        <span class="s4">&lt;!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *--&gt;</span>
+        <span class="s4">&lt;!-- * *                               SB Forms JS                               * *--&gt;</span>
+        <span class="s4">&lt;!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *--&gt;</span>
+        <span class="s4">&lt;!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *--&gt;</span>
+        <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://cdn.startbootstrap.com/sb-forms-latest.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+    <span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
