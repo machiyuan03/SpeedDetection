@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>REAL TIME CAR SPEED DETECTION</title>
-        <link rel="icon" type="image/x-icon" href="../dist/assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>REAL TIME CAR SPEED DETECTION</title>
+    <link rel="icon" type="image/x-icon" href="../dist/assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../static/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Link to another HTML page -->
+    <a href="model.html" class="btn btn-primary">Go to Second Page</a>
+
+    <!-- Other content of your index.html -->
+</body>
+</html>
+
+
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -26,184 +38,135 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#members">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">REAL TIME TRAFFIC SPEED DETECTION1</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Measure traffic speeds on specific road sections to help manage traffic flow。</h2>
-                        <a class="btn btn-primary" href="{{ url_for('model') }}">Get Started</a>
-                    </div>
-                </div>
+<header class="masthead" style="background-image: url('../static/background1.jpeg'); background-size: cover; background-position: center;">
+
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase">REAL TIME TRAFFIC SPEED DETECTION</h1>
+                <b></b>
+
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Measure traffic speeds on specific road sections to help manage traffic flow</h2>
+                <div class="my-4"></div>
+                <h3 style="color: gray;">Welcome to the vehicle speed monitoring system. This system provides real-time vehicle speed data and historical analysis.</h3>
+
             </div>
+        </div>
+    </div>
+</header>
+
         </header>
-        <!-- About-->
-        <section class="about-section text-center" id="System function description">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4"></h2>
-                        <p class="text-white-50">
-                           Welcome to the vehicle speed monitoring system. This system provides real-time vehicle speed data and historical analysis
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                           to help traffic management departments optimize road use and improve safety
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="{{url_for('static', filename='car.png')}}" alt="..." />
-            </div>
-        </section>
-        <!-- Projects-->
+
+        <!-- YOLOV8-->
         <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{url_for('static', filename='bg-masthead.jpg')}}" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Kira  Yan</h4>
-                            <p class="text-black-50 mb-0">She studied honours of computer science at UTS, and she has experiences in the fields of deep learning, machine learning and natural language processing.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="{{url_for('static',filename='demo-image-01.jpg')}}" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="../static/yolo.pbm" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Chiyuan Ma</h4>
-                                    <p class="mb-0 text-white-50">HE IS THE STUDY OF THE UTS HONOURS OF COMPUTER SCIENCE.</p>
+                                    <h4 class="text-white">YOLOv8 Model</h4>
+                                    <p class="mb-0 text-white-50">YOLOv8 is an advanced deep learning model designed for real-time object detection tasks.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+                <!-- Experiemnt-->
+<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+    <div class="col-lg-6">
+        <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Experiment</h4>
+                    <p class="mb-0 text-white-50">In the field of vehicle speed detection, the YOLOv8 model can identify and track vehicles on the road and calculate their movement speed in real time. Utilizing high-resolution camera input, YOLOv8 can accurately analyze vehicle position changes from video frames and estimate vehicle speed through changes in time and distance.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6"><img class="img-fluid" src="../static/experiment.png" alt="..." /></div>
+</div>
+
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="../dist/assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Huaxia Guo</h4>
-                                    <p class="mb-0 text-white-50">Master of Data Science, 2009-2013, Mechanical Design and Manufacturing Major of Chongqing University, 13-18SEC Mechanical Design Engineer, 18-20 Years Financial Data Analyst at Yinfeng Xinrong Software Company, 20-23 Years, Regional Director of Yinfeng East China Region.</p>
-                                </div>
+<div class="row gx-0 justify-content-center">
+    <div class="col-lg-6 order-lg-1"><img class="img-fluid" src="../static/dataset.jpeg" alt="Dataset image" /></div>
+    <div class="col-lg-6 order-lg-2">
+        <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 class="text-white">Datasets</h4>
+                    <p class="mb-0 text-white-50">We use the public data set from <a href="https://universe.roboflow.com/thesis-s9ojf/dettrack18mb" target="_blank" class="text-white">roboflow</a>, which has 1509 vehicle images and each image has a corresponding label. In the experiment, our data set is divided into a test set, a verification set and a training set.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                    <!-- Members Section -->
+<!-- Members Section -->
+<section class="members-section bg-black" id="members">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-10 col-lg-8 mx-auto text-center" style="margin-top: 50px;"> <!-- Increased top margin -->
+                <h2 class="text-white mb-5">Meet Our Team!</h2>
+                <div class="my-4"></div> <!-- Blank space for separation -->
+                <!-- Rest of the content -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+                    <!-- Member 1 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-primary">Li Yan</h4>
+                                <p class="text-black-50">Student</p>
+                                <p class="text-black-50">li studied computer science at uts
+Science major, she has knowledge background in machine learning and deep learning, and she is interested in computer version research direction.</p>
+                                <a href="mailto:jane.doe@example.com">Li.yan-7@student.uts.edu.au</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Member 2 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-primary">Chiyuan Ma</h4>
+                                <p class="text-black-50">Student</p>
+                                <p class="text-black-50"> UTS higher degree research student, casual adademic. His research interests are in the areas of computer vision and multimodality..</p>
+                                <a href="mailto:john.smith@example.com">Chiyuan.Ma-1@student.uts.edu.au</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Member 3 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <h4 class="text-primary">Huaxia Guo</h4>
+                                <p class="text-black-50">Student</p>
+                                <p class="text-black-50">Master of Data Science, 2009-2013, Mechanical Design and Manufacturing Major of Chongqing University, 13-18SEC Mechanical Design Engineer, 18-20 Years Financial Data Analyst at Yinfeng Xinrong Software Company, 20-23 Years, Regional Director of Yinfeng East China Region</p>
+                                <a href="mailto:emily.white@example.com">huaxia.guo@student.uts.edu.au</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Request more information!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Contact</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Kira Yan,Chiyuan Ma,Huaxia Guo</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"> <a href="mailto:li.yan-7@student.uts.edu.au">li.yan-7@student.uts.edu.au</a><br>
-    <a href="mailto:huaxia.guo@student.uts.edu.au">huaxia.guo@student.uts.edu.au</a><br>
-    <a href="mailto:Chiyuan.Ma-1@student.uts.edu.au">Chiyuan.Ma-1@student.uts.edu.au</a>
-                                </a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Avilables</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">MON-SUN
-                                8.00am-5.00am</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="../dist/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        </div>
+    </div>
+</section>
+<!-- End of Members Section -->
+
     </body>
 </html>
