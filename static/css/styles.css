@@ -379,6 +379,21 @@ select:disabled {
   opacity: 1;
 }
 
+.custom-link {
+    color: blue;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.custom-link:hover {
+    background-color: gray;
+    color: white;
+}
+
+
 [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
   display: none !important;
 }
@@ -11069,7 +11084,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../static/car.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11143,7 +11158,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../../dist/assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
