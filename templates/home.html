@@ -53,10 +53,17 @@
         </div>
     </div>
 </header>
- <div class="container mt-5 center-text">
-      <div class="col text-center">
-        <button onclick="location.href='http://localhost:63342/SpeedDetection/templates/model.html?_ijt=lrl37hdhs6uv4oopuurbc0dotf';" class="btn btn-primary">Start Detection</button>
+    <div class="container mt-5 center-text">
+        <div class="col text-center">
+            <button id="startDetection" class="btn btn-primary">Start Detection</button>
+        </div>
     </div>
+
+    <script>
+        document.getElementById('startDetection').addEventListener('click', function() {
+            window.location.href = "{{ url_for('model_page') }}";
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="../static/js/bootstrap.bundle.min.js"></script>
