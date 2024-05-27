@@ -130,11 +130,11 @@ def index():
     return render_template('home.html')
 
 
-# 在Flask应用程序中
+# In flask applicatioin
 @app.route('/model')
 def model_page():
     """
-    显示模型页面，并执行相应的Flask函数。
+    Display the model page and execute the corresponding Flask function.
     """
     return render_template('model.html')
 
